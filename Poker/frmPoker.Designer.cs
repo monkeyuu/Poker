@@ -35,11 +35,11 @@
             this.btnChangeCard = new System.Windows.Forms.Button();
             this.btnDealCard = new System.Windows.Forms.Button();
             this.grbet = new System.Windows.Forms.GroupBox();
-            this.Total_lbl = new System.Windows.Forms.Label();
-            this.Totalresult_lbl = new System.Windows.Forms.Label();
-            this.betmoney_lbl = new System.Windows.Forms.Label();
-            this.bet_btn = new System.Windows.Forms.Button();
             this.betmoney_txt = new System.Windows.Forms.TextBox();
+            this.bet_btn = new System.Windows.Forms.Button();
+            this.betmoney_lbl = new System.Windows.Forms.Label();
+            this.Totalresult_lbl = new System.Windows.Forms.Label();
+            this.Total_lbl = new System.Windows.Forms.Label();
             this.grpButton.SuspendLayout();
             this.grbet.SuspendLayout();
             this.SuspendLayout();
@@ -125,15 +125,31 @@
             this.grbet.Text = "下注";
             this.grbet.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // Total_lbl
+            // betmoney_txt
             // 
-            this.Total_lbl.AutoSize = true;
-            this.Total_lbl.Location = new System.Drawing.Point(25, 37);
-            this.Total_lbl.Name = "Total_lbl";
-            this.Total_lbl.Size = new System.Drawing.Size(57, 20);
-            this.Total_lbl.TabIndex = 0;
-            this.Total_lbl.Text = "總資金";
-            this.Total_lbl.Click += new System.EventHandler(this.Total_lbl_Click);
+            this.betmoney_txt.Location = new System.Drawing.Point(298, 33);
+            this.betmoney_txt.Name = "betmoney_txt";
+            this.betmoney_txt.Size = new System.Drawing.Size(100, 29);
+            this.betmoney_txt.TabIndex = 4;
+            // 
+            // bet_btn
+            // 
+            this.bet_btn.Location = new System.Drawing.Point(413, 30);
+            this.bet_btn.Name = "bet_btn";
+            this.bet_btn.Size = new System.Drawing.Size(61, 34);
+            this.bet_btn.TabIndex = 3;
+            this.bet_btn.Text = "押注";
+            this.bet_btn.UseVisualStyleBackColor = true;
+            this.bet_btn.Click += new System.EventHandler(this.bet_btn_Click);
+            // 
+            // betmoney_lbl
+            // 
+            this.betmoney_lbl.AutoSize = true;
+            this.betmoney_lbl.Location = new System.Drawing.Point(217, 38);
+            this.betmoney_lbl.Name = "betmoney_lbl";
+            this.betmoney_lbl.Size = new System.Drawing.Size(73, 20);
+            this.betmoney_lbl.TabIndex = 2;
+            this.betmoney_lbl.Text = "押注金額";
             // 
             // Totalresult_lbl
             // 
@@ -145,32 +161,16 @@
             this.Totalresult_lbl.TabIndex = 1;
             this.Totalresult_lbl.Text = "1000000";
             this.Totalresult_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            //this.Totalresult_lbl.Click += new System.EventHandler(this.label2_Click);
             // 
-            // betmoney_lbl
+            // Total_lbl
             // 
-            this.betmoney_lbl.AutoSize = true;
-            this.betmoney_lbl.Location = new System.Drawing.Point(217, 38);
-            this.betmoney_lbl.Name = "betmoney_lbl";
-            this.betmoney_lbl.Size = new System.Drawing.Size(73, 20);
-            this.betmoney_lbl.TabIndex = 2;
-            this.betmoney_lbl.Text = "押注金額";
-            // 
-            // bet_btn
-            // 
-            this.bet_btn.Location = new System.Drawing.Point(413, 30);
-            this.bet_btn.Name = "bet_btn";
-            this.bet_btn.Size = new System.Drawing.Size(61, 34);
-            this.bet_btn.TabIndex = 3;
-            this.bet_btn.Text = "押注";
-            this.bet_btn.UseVisualStyleBackColor = true;
-            // 
-            // betmoney_txt
-            // 
-            this.betmoney_txt.Location = new System.Drawing.Point(298, 33);
-            this.betmoney_txt.Name = "betmoney_txt";
-            this.betmoney_txt.Size = new System.Drawing.Size(100, 29);
-            this.betmoney_txt.TabIndex = 4;
+            this.Total_lbl.AutoSize = true;
+            this.Total_lbl.Location = new System.Drawing.Point(25, 37);
+            this.Total_lbl.Name = "Total_lbl";
+            this.Total_lbl.Size = new System.Drawing.Size(57, 20);
+            this.Total_lbl.TabIndex = 0;
+            this.Total_lbl.Text = "總資金";
+            this.Total_lbl.Click += new System.EventHandler(this.Total_lbl_Click);
             // 
             // frmPoker
             // 

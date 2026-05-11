@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\1131203_侯采妤\Poker\bin\Debug\Poker.exe.config
+C:\Users\User\Desktop\1131203_侯采妤\Poker\bin\Debug\Poker.exe
+C:\Users\User\Desktop\1131203_侯采妤\Poker\bin\Debug\Poker.pdb
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.frmPicTest.resources
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.frmPoker.resources
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.csproj.GenerateResource.cache
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.exe
+C:\Users\User\Desktop\1131203_侯采妤\Poker\obj\Debug\Poker.pdb
